@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@undecaf/zbar-wasm@0.9.15/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@undecaf/barcode-detector-polyfill@0.9.20/dist/index.js"></script>
+</head>
+<body>
+  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EAN13.svg/1200px-EAN13.svg.png" alt="" srcset=""> -->
+  <canvas id="canvas"></canvas>
+  <video id="video" autoplay style="opacity:0; position: absolute;"></video>
+  <div id="barcode" style="text-align: center;"></div>
+  <script src="./index.js"></script>
+</body>
+</html>
